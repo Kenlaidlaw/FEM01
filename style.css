@@ -113,24 +113,22 @@ header {
     color: hsl(228, 45%, 44%);
   }
 
-  @media (max-width: 367px) {
+  @media (max-width: 375px) {
     .image1 {
         position: fixed;
-        /* align-self: flex-start; */
-        left: -300px;
-        top: -600px;
+        left: -700px;
+        top: -500px;
         z-index: -1;
     }
     .image2 {
         position: fixed;
-        /* align-self: flex-end; */
-        right: -300px;
-        bottom: -600px;
+        right: -700px;
+        bottom: -500px;
         z-index: -1;
     }
     
     header {
-        height: 95vh;
+        height: 92vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
